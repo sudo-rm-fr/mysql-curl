@@ -16,9 +16,7 @@ rm -f output.csv output.json;
 
 # email result to Nathan and Simon to find
 
-echo "Attached are the results from the weeks policy uploads and where to find them" | mail -s "This weeks Lapse Clawback" -a "finalresult.txt" it.development@clearcovercompare.co.uk
-
-#echo "Attached are the results from the weeks policy uploads and where to find them" | mail -s "This weeks Lapse Clawback" -a "finalresult.txt" Jenni.Turner@clearcovercopmare.co.uk
+echo "Attached are the results from the weeks policy uploads and where to find them" | mail -s "This weeks Lapse Clawback" -a "finalresult.txt" 
 
 # Remove result from curl
 
